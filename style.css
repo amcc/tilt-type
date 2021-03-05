@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 10;
+  font-family: "Recursive";
+  font-size: 5vw
+}
+canvas {
+  display: block;
+}
+
+section {
+  padding: 10px 5vw;
+}
+
+#variable {
+  font-size: 4.3em;
+}
+
+#font-info {
+  margin-top: 2em;
+}
