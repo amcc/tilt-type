@@ -1,9 +1,17 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 10;
   font-family: "Recursive";
-  font-size: 5vw
+  font-size: 5vw;
+    background: #000;
+  color: #fff;
 }
+
+a {
+  color: #fff;
+}
+
 canvas {
   display: block;
 }
@@ -12,10 +20,30 @@ section {
   padding: 10px 5vw;
 }
 
+#ios {
+/*   direction: rtl; */
+  padding-bottom: 1em;
+  padding: 10px 5vw;
+}
+
 #variable {
-  font-size: 4.3em;
+  width: 100%;
+  box-sizing: border-box;
+/*   direction: rtl; */
+  display: block;
+  max-width: 100%;
+  min-height: 70vh;
+  font-family: "Recursive";
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0px solid;
+  font-size: 5.1em;
+  color: #fff;
 }
 
 #font-info {
   margin-top: 2em;
+  min-height: 30vh;
+  font-weight: 300;
 }
